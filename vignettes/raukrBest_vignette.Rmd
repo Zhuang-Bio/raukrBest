@@ -1,0 +1,46 @@
+---
+title: "How to write more and more letters, in a triangle"
+author: "Zhuang Liu"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{How to write more and more letters, in a triangle}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+# replace this with your package name
+library(raukrBest)
+
+```
+
+
+# The greatest package for a very specific purpose
+
+If you thought that it was impossible to write letters
+alphabetically from top to bottom with each number represented
+the same number of times asits position in the alphabet
+ - think again!
+
+This package and its sole function, trianguletter, solves just this problem!
+
+But you do not have to take my word for it, see for yourself:
+```{r,echo=T}
+# With just a simple number we specify how long into the alphabet we go.
+trianguletter(10)
+
+# Also, this package has this random dataset:
+mycolors
+```
+
+# Future plans
+
+We plan do add features so that you can give it
+a letter, rather than a number, and output a
+bunch of numbers instead!
+
